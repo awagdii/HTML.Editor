@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HTML.Editor.jnlp">
+  <information>
+    <title>HTML.Editor</title>
+    <vendor>ahmed.wagdi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HTML.Editor.jar" size="54482" download="eager" />
+    <jar href="lib\Undecorator.jar" size="195572" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="HTML.Editor" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.html.editor.main.HTMLEditor"  name="HTML.Editor" />
+  <update check="always"/>
+</jnlp>
